@@ -9,7 +9,7 @@ runme:
 ## TODO
  - [X] Make it Deploy (w/ vercel)
  - [X] Scaffold Basic UI with Mock Data
- - [ ] Tidy up build process 
+ - [X] Tidy up build process 
  - [ ] Set up a database (w/ vercel postgres)
  - [ ] Add Auth (w/ clerk)
  - [ ] Add Image Upload

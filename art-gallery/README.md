@@ -7,8 +7,9 @@ runme:
 # Create T3 App
 
 ## TODO
- - [ ] Make it Deploy (w/ vercel)
+ - [X] Make it Deploy (w/ vercel)
  - [ ] Scaffold Basic UI with Mock Data
+ - [ ] Tidy up build process 
  - [ ] Set up a database (w/ vercel postgres)
  - [ ] Add Auth (w/ clerk)
  - [ ] Add Image Upload

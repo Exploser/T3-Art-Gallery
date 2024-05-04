@@ -1,3 +1,4 @@
+import { index } from "drizzle-orm/mysql-core";
 import Link from "next/link";
 
 export default function HomePage() {

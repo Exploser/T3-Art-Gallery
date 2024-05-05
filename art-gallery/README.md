@@ -12,8 +12,9 @@ runme:
 - [X] Scaffold Basic UI with Mock Data
 - [X] Tidy up build process
 - [X] Set up a database (w/ vercel postgres)
-- [ ] Add Auth (w/ clerk)
+- [X] Add Auth (w/ clerk)
 - [ ] Add Image Upload
+- [ ] "taint" (server-only)
 - [ ] Error management (w/ Sentry)
 - [ ] Routing
 - [ ] Delete (w/ Server Action)

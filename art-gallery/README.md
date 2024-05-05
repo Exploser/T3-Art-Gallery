@@ -7,17 +7,18 @@ runme:
 # Create T3 App
 
 ## TODO
- - [X] Make it Deploy (w/ vercel)
- - [X] Scaffold Basic UI with Mock Data
- - [X] Tidy up build process 
- - [ ] Set up a database (w/ vercel postgres)
- - [ ] Add Auth (w/ clerk)
- - [ ] Add Image Upload
- - [ ] Error management (w/ Sentry)
- - [ ] Routing
- - [ ] Delete (w/ Server Action)
- - [ ] Analytics (w/ posthog)
- - [ ] Rate-limiting (w/ upstash)
+
+- [X] Make it Deploy (w/ vercel)
+- [X] Scaffold Basic UI with Mock Data
+- [X] Tidy up build process
+- [X] Set up a database (w/ vercel postgres)
+- [ ] Add Auth (w/ clerk)
+- [ ] Add Image Upload
+- [ ] Error management (w/ Sentry)
+- [ ] Routing
+- [ ] Delete (w/ Server Action)
+- [ ] Analytics (w/ posthog)
+- [ ] Rate-limiting (w/ upstash)
 
 This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
 

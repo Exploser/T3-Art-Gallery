@@ -15,6 +15,7 @@ runme:
 - [X] Add Auth (w/ clerk)
 - [ ] Add Image Upload
 - [ ] "taint" (server-only)
+- [ ] Use Next/Image Component
 - [ ] Error management (w/ Sentry)
 - [ ] Routing
 - [ ] Delete (w/ Server Action)

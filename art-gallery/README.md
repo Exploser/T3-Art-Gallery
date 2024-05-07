@@ -19,9 +19,9 @@ runme:
 - [X] Error management (w/ Sentry)
 - [X] Parallel Routing/ Image Page
 - [X] Custom Upload Button
-- [ ] Add ShadUI Toasts
-- [ ] Delete (w/ Server Action)
+- [X] Add ShadUI Toasts
 - [ ] Analytics (w/ posthog)
+- [ ] Delete (w/ Server Action)
 - [ ] Rate-limiting (w/ upstash)
 
 This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.

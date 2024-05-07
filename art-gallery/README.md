@@ -16,7 +16,7 @@ runme:
 - [X] Add Image Upload
 - [X] "taint" (server-only)
 - [X] Use Next/Image Component
-- [ ] Error management (w/ Sentry)
+- [X] Error management (w/ Sentry)
 - [ ] Routing
 - [ ] Delete (w/ Server Action)
 - [ ] Analytics (w/ posthog)

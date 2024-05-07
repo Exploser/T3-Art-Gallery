@@ -17,7 +17,7 @@ runme:
 - [X] "taint" (server-only)
 - [X] Use Next/Image Component
 - [X] Error management (w/ Sentry)
-- [ ] Routing
+- [X] Parallel Routing
 - [ ] Delete (w/ Server Action)
 - [ ] Analytics (w/ posthog)
 - [ ] Rate-limiting (w/ upstash)

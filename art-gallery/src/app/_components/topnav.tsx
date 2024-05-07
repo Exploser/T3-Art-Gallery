@@ -14,7 +14,6 @@ export function TopNav(){
             <SignedIn>
                 <SimpleUploadButton />
                 <UserButton />
-                <SignOutButton />
             </SignedIn>
         </div>
       </nav>

@@ -18,6 +18,8 @@ runme:
 - [X] Use Next/Image Component
 - [X] Error management (w/ Sentry)
 - [X] Parallel Routing/ Image Page
+- [X] Custom Upload Button
+- [ ] Add ShadUI Toasts
 - [ ] Delete (w/ Server Action)
 - [ ] Analytics (w/ posthog)
 - [ ] Rate-limiting (w/ upstash)

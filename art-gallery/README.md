@@ -13,9 +13,9 @@ runme:
 - [X] Tidy up build process
 - [X] Set up a database (w/ vercel postgres)
 - [X] Add Auth (w/ clerk)
-- [ ] Add Image Upload
-- [ ] "taint" (server-only)
-- [ ] Use Next/Image Component
+- [X] Add Image Upload
+- [X] "taint" (server-only)
+- [X] Use Next/Image Component
 - [ ] Error management (w/ Sentry)
 - [ ] Routing
 - [ ] Delete (w/ Server Action)

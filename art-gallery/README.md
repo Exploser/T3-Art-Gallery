@@ -20,9 +20,9 @@ runme:
 - [X] Parallel Routing/ Image Page
 - [X] Custom Upload Button
 - [X] Add ShadUI Toasts
-- [ ] Analytics (w/ posthog)
-- [ ] Delete (w/ Server Action)
-- [ ] Rate-limiting (w/ upstash)
+- [X] Analytics (w/ posthog)
+- [X] Delete (w/ Server Action)
+- [X] Rate-limiting (w/ upstash)
 
 This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
 

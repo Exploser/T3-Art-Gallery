@@ -70,6 +70,11 @@ export function SimpleUploadButton() {
                 },
             );
         },
+        onUploadError(error){
+            posthog.capture("upload_error", { error });
+            toast.dismiss("upload-being");
+            toast.error("Upload Failed :(")
+        },
         onClientUploadComplete() {
             toast.dismiss("upload-begin");
             toast(<span className="text-lg">Upload Complete</span>, {

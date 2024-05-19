@@ -23,11 +23,10 @@ runme:
 - [X] Analytics (w/ posthog)
 - [X] Delete (w/ Server Action)
 - [X] Rate-limiting (w/ upstash)
-
-- [ ] Fix Page Layout for different res images
+- [X] Fix Page Layout for different res images
 - [ ] Feature to select images on the gallery page
 - [ ] Infinite Scroll
-- [ ] Public Folder or Album 
+- [ ] Public Folder or Album
 
 This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
 

@@ -10,6 +10,7 @@ if (typeof window !== 'undefined') {
     ui_host: 'https://us.i.posthog.com', // or 'https://eu.i.posthog.com' if your PostHog is hosted in Europe
   });
 }
+
 export function CSPostHogProvider({ children }: {children: React.ReactNode}) {
     return ( 
         <PostHogProvider client={posthog}>

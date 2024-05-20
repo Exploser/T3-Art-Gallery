@@ -18,7 +18,6 @@ const useUploadThingInputProps = (...args: Input) => {
         const result = await $ut.startUpload(selectedFiles);
 
         console.log("uploaded files", result);
-        // TODO: persist result in state maybe?
     };
 
     return {
@@ -41,15 +40,15 @@ function UploadSVG() {
 
 function LoadingSpinnerSVG() {
     return (
-    <svg 
-        width="24" 
-        height="24" 
-        stroke="#aaa" 
-        viewBox="0 0 24 24" 
-        xmlns="http://www.w3.org/2000/svg"
-    >
-    <g className="spinner_V8m1">
-    <circle cx="12" cy="12" r="9.5" fill="none" stroke-width="3"></circle></g></svg>)
+        <svg
+            width="24"
+            height="24"
+            stroke="#aaa"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+        >
+            <g className="spinner_V8m1">
+                <circle cx="12" cy="12" r="9.5" fill="none" stroke-width="3"></circle></g></svg>)
 }
 
 export function SimpleUploadButton() {
@@ -62,7 +61,7 @@ export function SimpleUploadButton() {
             posthog.capture("upload_began");
             toast(
                 <div className="flex gap-2 text-white items-center">
-                    <LoadingSpinnerSVG /> <span className="text-lg">Uploading...</span> 
+                    <LoadingSpinnerSVG /> <span className="text-lg">Uploading...</span>
                 </div>,
                 {
                     duration: 100000,
@@ -70,7 +69,7 @@ export function SimpleUploadButton() {
                 },
             );
         },
-        onUploadError(error){
+        onUploadError(error) {
             posthog.capture("upload_error", { error });
             toast.dismiss("upload-being");
             toast.error("Upload Failed :(")
